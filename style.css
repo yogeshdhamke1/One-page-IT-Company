@@ -1,0 +1,89 @@
+html {
+    scroll-behavior: smooth;
+  }
+.navbar-inverse .navbar-nav>li>a {
+    color: #9d9d9d;
+    font-size: larger;
+    font-weight: 800;
+}
+@media (min-width: 768px){
+
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+    font-size: 20px;
+    font-weight: 800;
+}
+}
+
+.divour{
+    padding-top: 30px; padding-bottom: 30px;
+}
+@media (min-width: 992px){
+    .textdiv{
+        padding-top: 10px !important;
+    }
+    
+}
+@media (max-width: 983px){
+    .textdiv{
+        padding-top: 54px !important;
+    }
+    
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+p{
+    
+    font-family: "Roboto", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+}
+.jobs{
+        border: 1px solid #bbb;
+        
+        padding: 25px 25px 15px;
+        transition: .3s background ease-in-out;
+    }
+.jobs:hover{
+    background: black;
+    color: white;
+}
+.textdiv{
+    padding-top: 116px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+hr{
+    width: 200px;
+    width: 100px;
+    
+    border: 2px solid black;
+}
+.divcenter{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: black;
+    color: white;
+
+}
+.divfotter1{
+    background: #414141;
+    color: white;
+
+}
+.divfotter2{
+    background: rgb(107, 106, 106);
+    color: white;
+
+}
+
+.divcenter2{
+    padding-left: 90px;
+    padding-right: 90px;
+}
